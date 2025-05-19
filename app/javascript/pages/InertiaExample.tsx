@@ -6,6 +6,7 @@ import reactSvg from '/assets/react.svg'
 import viteRubySvg from '/assets/vite_ruby.svg'
 
 import cs from './InertiaExample.module.css'
+import InertiaComponent from './InertiaComponent'
 
 export default function InertiaExample({ name }: { name: string }) {
   const [count, setCount] = useState(0)
@@ -55,6 +56,7 @@ export default function InertiaExample({ name }: { name: string }) {
           Click on the Inertia, Vite Ruby, and React logos to learn more
         </p>
       </div>
+      <InertiaComponent />
     </div>
   )
 }
